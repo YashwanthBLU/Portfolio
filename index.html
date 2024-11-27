@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Yashwanth S</h1>
+    <p>Fullstack Developer | Enthusiastic Learner</p>
+  </header>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container" id="skills-container">
+      <!-- Skills cards will be dynamically added here -->
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container" id="projects-container">
+      <!-- Project cards will be dynamically added here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Yashwanth | <a href="https://github.com/YashwanthBLU" target="_blank">My Github</a></p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <span class="close" id="modal-close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <ul id="modal-tech-stack"></ul>
+      <a id="modal-link" class="modal-link" target="_blank">Visit Project</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
